@@ -1,0 +1,25 @@
+page-b {
+    ion-content{
+        background:url(../assets/imgs/bg.png);
+        background-size:cover;
+        .box{
+            ion-item{
+                background:transparent;
+            }
+            ion-icon{
+                color:#fff;
+            }
+            ion-input{
+                color:#f00;
+            }
+            button{
+                color:#fff;
+                margin-top:50px;
+            }
+            p{
+                color:#fff!important;
+                text-align: center;
+            }
+        }
+    }
+}

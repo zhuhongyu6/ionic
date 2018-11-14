@@ -1,0 +1,30 @@
+<ion-header no-border text-center>
+    <ion-navbar color='yel' >
+        <button ion-button menuToggle icon-only>
+          <ion-icon name='menu'></ion-icon>
+        </button>
+        <ion-title>设置</ion-title>
+      </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class='list'>
+   <ion-list>
+      <ion-item>
+        <ion-icon name='menu'></ion-icon>
+        <span >清楚缓存</span>
+        <span class='s1'>666.6KB</span>
+      </ion-item>
+      <ion-item detail-push>
+        <ion-icon name='md-people'></ion-icon>
+        <span>关于我们</span>
+      </ion-item>
+      <ion-item detail-push>
+          <ion-icon name='ios-alert-outline'></ion-icon>
+          <span>版本信息</span>
+      </ion-item>
+   </ion-list>
+   <button ion-button block color='yel' (click)="goSub()">退出登录</button>
+  </div>
+</ion-content>

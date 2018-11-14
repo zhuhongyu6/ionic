@@ -1,0 +1,91 @@
+page-a {
+    .top{
+        position: relative;
+        margin-top:-20px;
+        .img1{
+            position: absolute;
+            width:100%;
+        }
+        .img2{
+            position:absolute;
+            left:38%;
+            border-radius: 50%;
+            top:30px;
+        }
+        p{
+            position:absolute;
+            line-height: 40px;
+            left:40%;
+            top:120px;
+        }
+    }
+    .menu{
+        // border:1px solid;
+        height:50px;
+        line-height:50px;
+        margin-top:180px;
+        background-color: #eeeeee;
+        .span2{
+            float:right;
+        }
+    }
+    .mylist{
+        // border:1px solid;
+        height:80px;
+        background-color: #eeeeee; 
+        margin:0;
+        padding:0;
+        .first{
+            background-color: #ffdb2c;
+        }
+        li{
+            // border:1px solid;
+            float:left;
+            width:115px;
+            height:80px;
+            margin-right:5px;
+            background-color: #fff;
+            ion-icon{
+                margin-top:15px;
+                // border:1px solid;
+                width:30px;
+                height:30px;
+                text-align: center;
+                margin-left: 43px;
+            }
+            p{
+                text-align: center;
+                margin:0;
+                // border:1px solid;
+            }
+        }
+    }
+    .menulist{
+        margin:0;
+        background-color: #eeeeee;
+        // border:1px solid;
+        height:350px;
+        padding:0;
+        li{
+            width:175px;
+            height:88px;
+            float:left;
+            background-color: #fff;
+            margin-right:5px;
+            margin-top:15px;
+            // border:1px solid;
+            ion-icon{
+                width:30px;
+                height:30px;
+                // border:1px solid;
+                margin-left:80px;
+                margin-top:20px;
+            }
+            p{
+                text-align:center;
+                margin:0;
+                // border:1px solid;
+            }
+        }
+    }
+}
